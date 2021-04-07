@@ -1,8 +1,11 @@
 const express = require("express");
 const app = express();
+const morgan = require("morgan");
 
 app.use(express.static("public/documentation.html"));
+
 app.use(morgan("common"));
+
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send("Something has gone wrong!");
@@ -16,9 +19,13 @@ topMovies = [
 ];
 
 app.get("/movies", (req, res) => {
-  res, json(topMovies);
+  res.json(topMovies);
 });
 
 app.get("/", (req, res) => {
   res.send("This is my practice code");
+});
+
+app.listen(8080, () => {
+  console.log("This web server is listening on port 8080.");
 });
