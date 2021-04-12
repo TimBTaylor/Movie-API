@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Movie API Documentation</title>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -13,5 +14,93 @@
       update their personal information, and create a list of their favorite
       movies.
     </p>
+    <table>
+      <tr>
+        <th>Description</th>
+        <th>URL</th>
+        <th>Method</th>
+        <th>Request</th>
+        <th>Response</th>
+      </tr>
+      <tr>
+        <td>Return a list of all movies</td>
+        <td>'/movies'</td>
+        <td>GET</td>
+        <td>None</td>
+        <td>A JSON object with all the information of the movies</td>
+      </tr>
+      <tr>
+        <td>Return data about a single movie</td>
+        <td>'/movies/:title'</td>
+        <td>GET</td>
+        <td>None</td>
+        <td>A JSON object with all information about the single movie</td>
+      </tr>
+      <tr>
+        <td>Return a description about the genre of the movie</td>
+        <td>'/movies/:title/genre'</td>
+        <td>GET</td>
+        <td>None</td>
+        <td>An HTML response with a description of the genre</td>
+      </tr>
+      <tr>
+        <td>Return data about a director(bio, birth year, death year)</td>
+        <td>'/movies/director/:name'</td>
+        <td>GET</td>
+        <td>None</td>
+        <td>An HTML response with a description of the director</td>
+      </tr>
+      <tr>
+        <td>Allow new users to register</td>
+        <td>'/users'</td>
+        <td>POST</td>
+        <td>
+          <span>
+            {<br />
+            "username": "[username]"<br />, "password": "[password]"<br />,
+            "email": "[email]"<br />, "birthday": "[birthday]"<br />
+            }
+          </span>
+        </td>
+        <td>An HTML response that the account has been created</td>
+      </tr>
+      <tr>
+        <td>Allowing users to update their username</td>
+        <td>'/users/:username/:newusername'</td>
+        <td>PUT</td>
+        <td>None</td>
+        <td>A JSON response that contains the users information</td>
+      </tr>
+      <tr>
+        <td>Allow users to add a movie to their list of favorites</td>
+        <td>'/users/:username/movies/:movieID'</td>
+        <td>POST</td>
+        <td>
+          <span>
+            { "movie":"movieName"<br />, "genre":"movieGenre"<br />,
+            "director":"movieDirector" }
+          </span>
+        </td>
+        <td>A text showing that the movie has been added</td>
+      </tr>
+      <tr>
+        <td>Allow users to remove a movie from their favorites</td>
+        <td>'/users/:username/movies/:movieID'</td>
+        <td>DELETE</td>
+        <td>
+          <span>
+            { "movie":"movieID" }
+          </span>
+        </td>
+        <td>A text showing that the movie has been removed</td>
+      </tr>
+      <tr>
+        <td>Allowing users to deregister</td>
+        <td>'/users/:username'</td>
+        <td>DELETE</td>
+        <td>Username</td>
+        <td>A text showing that the user has been removed</td>
+      </tr>
+    </table>
   </body>
 </html>

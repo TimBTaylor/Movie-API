@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+th {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+td {
+  border: 1px solid black;
+}
