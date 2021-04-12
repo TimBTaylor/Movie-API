@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const morgan = require("morgan");
+const bodyParser = require("body-parser");
 
 app.use(express.static("public"));
 
@@ -25,7 +26,7 @@ app.get("/movies", (req, res) => {
 });
 
 app.get("/movies/:title", (req, res) => {
-  res.send("successful GET request on specified movie info");
+  res.send("successful GET request on movie information");
 });
 
 app.get("/movies/:title/genre", (req, res) => {
