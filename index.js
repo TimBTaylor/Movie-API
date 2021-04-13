@@ -15,10 +15,10 @@ app.use((err, req, res, next) => {
 });
 
 topMovies = [
-  { movie1: "movie1" },
-  { movie2: "movie2" },
-  { movie3: "movie3" },
-  { movie4: "movie4" }
+  { title: "movie1" },
+  { title: "movie2" },
+  { title: "movie3" },
+  { title: "movie4" }
 ];
 
 app.get("/movies", (req, res) => {
@@ -26,7 +26,11 @@ app.get("/movies", (req, res) => {
 });
 
 app.get("/movies/:title", (req, res) => {
-  res.send("successful GET request on movie information");
+  res.json(
+    topMovies.find(function(movie) {
+      return movie.title === req.params.title;
+    })
+  );
 });
 
 app.get("/movies/:title/genre", (req, res) => {
