@@ -2,6 +2,23 @@ const express = require("express");
 const app = express();
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const Models = require("./models.js");
+
+const Movies = Models.Movie;
+const Users = Models.User;
+
+mongoose.connect("mongodb://localhost:27017/myFlixDB", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
+
+topMovies = [
+  { title: "movie1" },
+  { title: "movie2" },
+  { title: "movie3" },
+  { title: "movie4" }
+];
 
 app.use(express.static("public"));
 
@@ -13,13 +30,6 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send("Something has gone wrong!");
 });
-
-topMovies = [
-  { title: "movie1" },
-  { title: "movie2" },
-  { title: "movie3" },
-  { title: "movie4" }
-];
 
 app.get("/movies", (req, res) => {
   res.json(topMovies);
@@ -42,7 +52,41 @@ app.get("/movies/director/:name", (req, res) => {
 });
 
 app.post("/users", (req, res) => {
-  res.send("successful POST request on creating user");
+  Users.findOne({ Username: req.body.Username })
+    .then(user => {
+      if (user) {
+        return res.status(400).send(req.body.Username + "already exists");
+      } else {
+        Users.create({
+          Username: req.body.Username,
+          Password: req.body.Password,
+          Email: req.body.Email,
+          Birthday: req.body.Birthday
+        })
+          .then(user => {
+            res.status(201).json(user);
+          })
+          .catch(error => {
+            console.error(error);
+            res.status(500).send("Error: " + error);
+          });
+      }
+    })
+    .catch(error => {
+      console.error(error);
+      res.status(500).send("Error: " + error);
+    });
+});
+
+app.get("/users", (req, res) => {
+  Users.find()
+    .then(users => {
+      res.status(201).json(users);
+    })
+    .catch(err => {
+      console.error(err);
+      res.status(500).send("Error: " + err);
+    });
 });
 
 app.put("/users/:username/:newusername", (req, res) => {
