@@ -13,12 +13,6 @@ mongoose.connect("mongodb://localhost:27017/myFlixDB", {
   useUnifiedTopology: true
 });
 
-topMovies = [
-  { title: "movie1" },
-  { title: "movie2" },
-  { title: "movie3" },
-  { title: "movie4" }
-];
 app.use(bodyParser.json());
 
 app.use(express.static("public"));
@@ -194,7 +188,7 @@ app.delete("/users/:Username/Movies/:MovieID", (req, res) => {
   );
 });
 
-//Removes users account
+//Removes users account information
 app.delete("/users/:Username", (req, res) => {
   Users.findOneAndRemove({ Username: req.params.Username })
     .then(user => {

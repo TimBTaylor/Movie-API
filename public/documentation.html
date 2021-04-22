@@ -33,22 +33,22 @@
         <td>Return data about a single movie</td>
         <td>'/movies/:title'</td>
         <td>GET</td>
-        <td>None</td>
+        <td>Title</td>
         <td>A JSON object with all information about the single movie</td>
       </tr>
       <tr>
-        <td>Return a description about the genre of the movie</td>
-        <td>'/movies/:title/genre'</td>
+        <td>Return a description about the genre</td>
+        <td>'/movies/genres/:Genre'</td>
         <td>GET</td>
         <td>None</td>
-        <td>An HTML response with a description of the genre</td>
+        <td>A response with a description of the genre</td>
       </tr>
       <tr>
         <td>Return data about a director(bio, birth year, death year)</td>
-        <td>'/movies/director/:name'</td>
+        <td>'/movies/directors/:Director'</td>
         <td>GET</td>
-        <td>None</td>
-        <td>An HTML response with a description of the director</td>
+        <td>Directors name</td>
+        <td>A response with a description of the director</td>
       </tr>
       <tr>
         <td>Allow new users to register</td>
@@ -62,44 +62,65 @@
             }
           </span>
         </td>
-        <td>An HTML response that the account has been created</td>
+        <td>
+          A response of the information entered indicating the account has been
+          created
+        </td>
       </tr>
       <tr>
-        <td>Allowing users to update their username</td>
-        <td>'/users/:username/:newusername'</td>
+        <td>Allowing users to update their information</td>
+        <td>'/users/:Username'</td>
         <td>PUT</td>
-        <td>None</td>
-        <td>A JSON response that contains the users information</td>
+        <td>
+          {<br />
+          "username": "[username]"<br />, "password": "[password]"<br />,
+          "email": "[email]"<br />, "birthday": "[birthday]"<br />
+          }
+        </td>
+        <td>
+          <span>
+            {<br />
+            "username": "[updatedUsername]"<br />, "password":
+            "[updatedPassword]"<br />, "email": "[updatedEmail]"<br />,
+            "birthday": "[updatedBirthday]"<br />
+            }
+          </span>
+        </td>
       </tr>
       <tr>
         <td>Allow users to add a movie to their list of favorites</td>
-        <td>'/users/:username/movies/:movieID'</td>
+        <td>'/users/:Username/Movies/:MovieID'</td>
         <td>POST</td>
-        <td>
-          <span>
-            { "movie":"movieName"<br />, "genre":"movieGenre"<br />,
-            "director":"movieDirector" }
-          </span>
-        </td>
+        <td>Username, movieID</td>
         <td>A text showing that the movie has been added</td>
       </tr>
       <tr>
         <td>Allow users to remove a movie from their favorites</td>
         <td>'/users/:username/movies/:movieID'</td>
         <td>DELETE</td>
-        <td>
-          <span>
-            { "movie":"movieID" }
-          </span>
-        </td>
+        <td>Username, movieID</td>
         <td>A text showing that the movie has been removed</td>
       </tr>
       <tr>
         <td>Allowing users to deregister</td>
-        <td>'/users/:username'</td>
+        <td>'/users/:Username/Movies/:MovieID'</td>
         <td>DELETE</td>
         <td>Username</td>
-        <td>A text showing that the user has been removed</td>
+        <td>A text showing that the user has been removed or not found</td>
+      </tr>
+      <tr>
+        <td>Allowing admin to return all information about a user</td>
+        <td>'/users/:Username'</td>
+        <td>GET</td>
+        <td>Username</td>
+        <td>A text displaying all the information about that user</td>
+      </tr>
+      <tr>
+        <td>Allows admin to return all information about all users</td>
+        <td>'/users'</td>
+        <td>GET</td>
+        <td>None</td>
+        <td>A text showing all information about each user</td>
       </tr>
     </table>
   </body>
