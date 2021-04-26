@@ -8,18 +8,18 @@ const cors = require("cors");
 const { check, validationResult } = require("express-validator");
 const Movies = Models.Movie;
 const Users = Models.User;
-/*
+
 mongoose.connect("mongodb://localhost:27017/myFlixDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
-*/
 
+/*
 mongoose.connect(process.env.CONNECTION_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
-
+*/
 app.use(bodyParser.json());
 
 app.use(express.static("public"));
@@ -139,7 +139,6 @@ app.post(
   ],
   (req, res) => {
     let errors = validationResult(req);
-
     if (!errors.isEmpty()) {
       return res.status(422).json({ errors: errors.array() });
     }
@@ -148,7 +147,7 @@ app.post(
     Users.findOne({ Username: req.body.Username })
       .then(user => {
         if (user) {
-          return res.status(400).send(req.body.Username + "already exists");
+          return res.status(400).send(req.body.Username + " already exists.");
         } else {
           Users.create({
             Username: req.body.Username,
