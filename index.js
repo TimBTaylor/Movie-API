@@ -55,6 +55,10 @@ app.use((err, req, res, next) => {
   res.status(500).send("Something has gone wrong!");
 });
 
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/public/documentation.html");
+});
+
 //GET request to return all movies and information about them
 app.get(
   "/movies",
