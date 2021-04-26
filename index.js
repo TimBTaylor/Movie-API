@@ -56,7 +56,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/public/documentation.html");
+  res.send("Welcome to FlixInfo!");
 });
 
 //GET request to return all movies and information about them
