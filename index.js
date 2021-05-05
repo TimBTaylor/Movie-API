@@ -60,16 +60,19 @@ app.get("/", (req, res) => {
 });
 
 //GET request to return all movies and information about them
-app.get("/movies", function (req, res) {
-  Movies.find()
-    .then(function (movies) {
-      res.status(201).json(movies);
-    })
-    .catch(function (error) {
-      console.error(error);
-      res.status(500).send("Error: " + error);
-    });
-});
+app.get(
+  "/movies",
+  (req, res) => {
+    Movies.find()
+      .then(movies => {
+        res.status(201).json(movies);
+      })
+      .catch(err => {
+        console.error(err);
+        res.status(500).send("Error: " + err);
+      });
+  }
+);
 
 //GET request to recieve infromation about a movie via the title
 app.get(
