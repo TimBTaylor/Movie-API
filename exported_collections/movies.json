@@ -1,10 +1,190 @@
-{"_id":{"$oid":"607c45f9abb2642aafc8786c"},"Title":"Silence of the Lambs","Description":"A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer.","Genre":{"Name":"Thriller","Description":"Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."},"Director":{"Name":"Jonathan Demme","Bio":"Robert Jonathan Demme was an American director, producer, and screenwriter.","Birth":"1944","Death":"2017"},"ImagePath":"https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c4ed5abb2642aafc8786d"},"Title":"Interstellar","Description":"A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.","Genre":{"Name":"Science Fiction","Description":"is a genre of fiction literature whose content is imaginative, but based in science"},"Director":{"Name":"Christopher Nolan","Bio":"Christopher Nolan is a great director","Birth":"1970","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c4f3babb2642aafc8786e"},"Title":"Inception","Description":"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.","Genre":{"Name":"Science Fiction","Description":"is a genre of fiction literature whose content is imaginative, but based in science"},"Director":{"Name":"Christopher Nolan","Bio":"Christopher Nolan is a British-American film director, producer, and screenwriter.","Birth":"1970","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c5045abb2642aafc8786f"},"Title":"Ready Player One","Description":"Set in 2045, much of humanity uses the virtual world OASIS to escape the real world","Genre":{"Name":"Fantasy Fiction","Description":"a type of fiction that ideologically and aesthetically subordinates reality to imagination by depicting a world of marvels that is contrasted to everyday reality and to accepted views of what is credible"},"Director":{"Name":"Steven Spielberg","Bio":"Steven Spielberg is an American film director and producer","Birth":"1946","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c51b3abb2642aafc87870"},"Title":"Pain and Gain","Description":"A trio of bodybuilders in Florida get caught up in an extortion ring and a kidnapping scheme that goes terribly wrong","Genre":{"Name":"Action","Description":"a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence, extended fighting, physical feats, rescues and frantic chases."},"Director":{"Name":"Michael Bay","Bio":"Michael Bay is an American film director and producer","Birth":"1965","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BMTU0NDE5NTU0OV5BMl5BanBnXkFtZTcwMzI1OTMzOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c523fabb2642aafc87871"},"Title":"Godzilla vs Kong","Description":"Kong clashes with Godzilla as humans lure the giant ape into the Hollow Earth to retrieve a power source for a weapon to stop Godzilla's mysterious rampages","Genre":{"Name":"Action","Description":"a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence, extended fighting, physical feats, rescues and frantic chases."},"Director":{"Name":"Adam Wingard","Bio":"Adam Wingard is an American filmmaker","Birth":"1982","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BZmYzMzU4NjctNDI0Mi00MGExLWI3ZDQtYzQzYThmYzc2ZmNjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c52d5abb2642aafc87872"},"Title":"Rocky","Description":"A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect","Genre":{"Name":"Action","Description":"a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence, extended fighting, physical feats, rescues and frantic chases."},"Director":{"Name":"John Avildsen","Bio":"John Avildsen was an American film director","Birth":"1935","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c534cabb2642aafc87873"},"Title":"Holes","Description":"A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason","Genre":{"Name":"Comedy","Description":"Comedy is a genre of film in which the main emphasis is on humor. These films are designed to make the audience laugh through amusement and most often work by exaggerating characteristics for humorous effect."},"Director":{"Name":"Andrew Davis","Bio":" Andrew Davis is an American film director, producer, writer, and cinematographer","Birth":"1946","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BMTg0MTU5ODkwM15BMl5BanBnXkFtZTYwMzgxNzY3._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c53d1abb2642aafc87874"},"Title":"Transformers: The Last Knight","Description":"A deadly threat from Earth's history reappears and a hunt for a lost artifact takes place between Autobots and Decepticons","Genre":{"Name":"Fantasy Fiction","Description":"a type of fiction that ideologically and aesthetically subordinates reality to imagination by depicting a world of marvels that is contrasted to everyday reality and to accepted views of what is credible"},"Director":{"Name":"Michael Bay","Bio":"Michael Bay is an American film director and producer","Birth":"1965","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BN2YwOWM4ODgtZTMzMi00ZmFmLTk5NTEtNmY4ZDcwNzQxNDhjXkEyXkFqcGdeQXVyNTI0NzAyNjY@._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
-{"_id":{"$oid":"607c54ebabb2642aafc87875"},"Title":"Avatar","Description":"A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.","Genre":{"Name":"Science Fiction","Description":"is a genre of fiction literature whose content is imaginative, but based in science"},"Director":{"Name":"James Cameron","Bio":"James Cameron is a Canadian film director, producer, screenwriter, editor, and environmentalist","Birth":"1954","Death":""},"ImagePath":"https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_UX182_CR0,0,182,268_AL_.jpg","Featured":true}
+{
+    "_id": {
+        "$oid": "607c45f9abb2642aafc8786c"
+    },
+    "Title": "Silence of the Lambs",
+    "Description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer.",
+    "Genre": {
+        "Name": "Thriller",
+        "Description": "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+    },
+    "Director": {
+        "Name": "Jonathan Demme",
+        "Bio": "Robert Jonathan Demme was an American director, producer, and screenwriter.",
+        "Birth": "1944",
+        "Death": "2017"
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c4ed5abb2642aafc8786d"
+    },
+    "Title": "Interstellar",
+    "Description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "Genre": {
+        "Name": "Science Fiction",
+        "Description": "is a genre of fiction literature whose content is imaginative, but based in science"
+    },
+    "Director": {
+        "Name": "Christopher Nolan",
+        "Bio": "Christopher Nolan is a great director",
+        "Birth": "1970",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c4f3babb2642aafc8786e"
+    },
+    "Title": "Inception",
+    "Description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "Genre": {
+        "Name": "Science Fiction",
+        "Description": "is a genre of fiction literature whose content is imaginative, but based in science"
+    },
+    "Director": {
+        "Name": "Christopher Nolan",
+        "Bio": "Christopher Nolan is a British-American film director, producer, and screenwriter.",
+        "Birth": "1970",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c5045abb2642aafc8786f"
+    },
+    "Title": "Ready Player One",
+    "Description": "Set in 2045, much of humanity uses the virtual world OASIS to escape the real world",
+    "Genre": {
+        "Name": "Fantasy Fiction",
+        "Description": "a type of fiction that ideologically and aesthetically subordinates reality to imagination by depicting a world of marvels that is contrasted to everyday reality and to accepted views of what is credible"
+    },
+    "Director": {
+        "Name": "Steven Spielberg",
+        "Bio": "Steven Spielberg is an American film director and producer",
+        "Birth": "1946",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c51b3abb2642aafc87870"
+    },
+    "Title": "Pain and Gain",
+    "Description": "A trio of bodybuilders in Florida get caught up in an extortion ring and a kidnapping scheme that goes terribly wrong",
+    "Genre": {
+        "Name": "Action",
+        "Description": "a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence, extended fighting, physical feats, rescues and frantic chases."
+    },
+    "Director": {
+        "Name": "Michael Bay",
+        "Bio": "Michael Bay is an American film director and producer",
+        "Birth": "1965",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BMTU0NDE5NTU0OV5BMl5BanBnXkFtZTcwMzI1OTMzOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c523fabb2642aafc87871"
+    },
+    "Title": "Godzilla vs Kong",
+    "Description": "Kong clashes with Godzilla as humans lure the giant ape into the Hollow Earth to retrieve a power source for a weapon to stop Godzilla's mysterious rampages",
+    "Genre": {
+        "Name": "Action",
+        "Description": "a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence, extended fighting, physical feats, rescues and frantic chases."
+    },
+    "Director": {
+        "Name": "Adam Wingard",
+        "Bio": "Adam Wingard is an American filmmaker",
+        "Birth": "1982",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BZmYzMzU4NjctNDI0Mi00MGExLWI3ZDQtYzQzYThmYzc2ZmNjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c52d5abb2642aafc87872"
+    },
+    "Title": "Rocky",
+    "Description": "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect",
+    "Genre": {
+        "Name": "Action",
+        "Description": "a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence, extended fighting, physical feats, rescues and frantic chases."
+    },
+    "Director": {
+        "Name": "John Avildsen",
+        "Bio": "John Avildsen was an American film director",
+        "Birth": "1935",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c534cabb2642aafc87873"
+    },
+    "Title": "Holes",
+    "Description": "A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason",
+    "Genre": {
+        "Name": "Comedy",
+        "Description": "Comedy is a genre of film in which the main emphasis is on humor. These films are designed to make the audience laugh through amusement and most often work by exaggerating characteristics for humorous effect."
+    },
+    "Director": {
+        "Name": "Andrew Davis",
+        "Bio": " Andrew Davis is an American film director, producer, writer, and cinematographer",
+        "Birth": "1946",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BMTg0MTU5ODkwM15BMl5BanBnXkFtZTYwMzgxNzY3._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c53d1abb2642aafc87874"
+    },
+    "Title": "Transformers: The Last Knight",
+    "Description": "A deadly threat from Earth's history reappears and a hunt for a lost artifact takes place between Autobots and Decepticons",
+    "Genre": {
+        "Name": "Fantasy Fiction",
+        "Description": "a type of fiction that ideologically and aesthetically subordinates reality to imagination by depicting a world of marvels that is contrasted to everyday reality and to accepted views of what is credible"
+    },
+    "Director": {
+        "Name": "Michael Bay",
+        "Bio": "Michael Bay is an American film director and producer",
+        "Birth": "1965",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BN2YwOWM4ODgtZTMzMi00ZmFmLTk5NTEtNmY4ZDcwNzQxNDhjXkEyXkFqcGdeQXVyNTI0NzAyNjY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
+{
+    "_id": {
+        "$oid": "607c54ebabb2642aafc87875"
+    },
+    "Title": "Avatar",
+    "Description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "Genre": {
+        "Name": "Science Fiction",
+        "Description": "is a genre of fiction literature whose content is imaginative, but based in science"
+    },
+    "Director": {
+        "Name": "James Cameron",
+        "Bio": "James Cameron is a Canadian film director, producer, screenwriter, editor, and environmentalist",
+        "Birth": "1954",
+        "Death": ""
+    },
+    "ImagePath": "https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    "Featured": true
+}
