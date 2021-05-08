@@ -1,4 +1,7 @@
-{"_id":{"$oid":"607c5db1abb2642aafc87876"},"Username":"Tim Taylor","Password":"password123","Email":"tim@gmail.com","Birthday":{"$date":"2000-02-03T00:00:00Z"},"Favorites":[{"$oid":"607c4ed5abb2642aafc8786d"},{"$oid":"607c45f9abb2642aafc8786c"}]}
 {"_id":{"$oid":"607c5e25abb2642aafc87877"},"Username":"Marky Mark","Password":"marky123","Email":"mark@gmail.com","Birthday":{"$date":"1971-06-05T00:00:00Z"},"Favorites":[{"$oid":"607c5045abb2642aafc8786f"},{"$oid":"607c4f3babb2642aafc8786e"}]}
 {"_id":{"$oid":"607c5e4cabb2642aafc87878"},"Username":"The rock","Password":"therock123","Email":"therock@gmail.com","Birthday":{"$date":"1972-05-02T00:00:00Z"},"Favorites":[{"$oid":"607c523fabb2642aafc87871"},{"$oid":"607c51b3abb2642aafc87870"}]}
 {"_id":{"$oid":"607c5e81abb2642aafc87879"},"Username":"Matt Damon","Password":"damon123","Email":"damon@gmail.com","Birthday":{"$date":"1970-10-08T00:00:00Z"},"Favorites":[{"$oid":"607c534cabb2642aafc87873"},{"$oid":"607c52d5abb2642aafc87872"}]}
+{"_id":{"$oid":"607fd0e4c6f3c9569819f5ba"},"FavoriteMovies":[],"Username":"hello","Password":"password","Email":"email@gmail.com","Birthday":{"$date":"2000-02-02T05:00:00Z"},"__v":0}
+{"_id":{"$oid":"6080bc95c24ed4691a82404e"},"FavoriteMovies":[],"Username":"newuser123","Password":"password123","Email":"sample@gmail.com","Birthday":{"$date":"2021-04-21T04:00:00Z"},"__v":0}
+{"_id":{"$oid":"60872d3d3844413a95fa63b5"},"FavoriteMovies":[],"Username":"timtaylor471","Password":"$2b$10$3awuy07HGrQ7mR6qnWwKT.honugj4AMqUr.YYgTnjcgghCrgCOWd6","Email":"timsemail@gmail.com","__v":0}
+{"_id":{"$oid":"608c8e7e0b03cb38da22443f"},"FavoriteMovies":[],"Username":"timtaylor","Password":"$2b$10$WDjVdgE1XrDRPLsJ9XVCBOVSVc71s2XWM5qvf.j75Jg3PQAAropWW","Email":"email@gmail.com","__v":0}
