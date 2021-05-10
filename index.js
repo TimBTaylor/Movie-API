@@ -25,7 +25,7 @@ app.use(express.static("public/documentation.html"));
 
 app.use(morgan("common"));
 
-let allowedOrigins = ["https://localhost:8080", "http://testsite.com", "http://localhost:1234"];
+let allowedOrigins = ["https://localhost:8080", "http://testsite.com", "http://localhost:1234", "https://timsmyflix.herokuapp.com"];
 
 app.use(
   cors({
