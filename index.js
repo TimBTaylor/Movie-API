@@ -17,6 +17,7 @@ mongoose.connect("mongodb://localhost:27017/myFlixDB", {
 
 mongoose.connect(process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
+
 app.use(bodyParser.json());
 
 app.use(express.static("public"));
@@ -59,6 +60,7 @@ app.get("/", (req, res) => {
 //GET request to return all movies and information about them
 app.get(
   "/movies",
+  passport.authenticate("jwt", { session: false }),
   (req, res) => {
     Movies.find()
       .then(movies => {
