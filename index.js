@@ -28,14 +28,7 @@ app.use(express.static("public/documentation.html"));
 
 app.use(morgan("common"));
 
-let allowedOrigins = [
-  "https://localhost:8080",
-  "http://testsite.com",
-  "http://localhost:1234",
-  "https://timsmyflix.herokuapp.com",
-  "https://timsmyflix.netlify.app",
-  "http://localhost:4200",
-];
+let allowedOrigins = ["*"];
 
 app.use(
   cors({
