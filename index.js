@@ -27,7 +27,11 @@ app.use(express.static("public/documentation.html"));
 
 app.use(morgan("common"));
 
-let allowedOrigins = ["*", "http://localhost:4200"];
+let allowedOrigins = [
+  "*",
+  "http://localhost:4200",
+  "https://timbtaylor.github.io/myFlix-Angular-client",
+];
 
 app.use(
   cors({
